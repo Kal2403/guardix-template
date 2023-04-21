@@ -23,7 +23,6 @@
     position: relative;
     left: 180px;
     cursor: pointer;
-    
 }
 
 .container-logo .logo{
@@ -60,11 +59,11 @@
 .header-button{
     display: flex;
     position: relative;
-    right: 150px;
+    right: 200px;
 }
 
 .header-button button{
-    width: 120px;
+    width: 130px;
     height: 45px;
     font-size: 1.2em;
     border: 2px solid rgba(143, 57, 255, 0.5);
@@ -79,8 +78,7 @@
 }
 
 .section-p1{
-    border: 1px solid;
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -95,7 +93,7 @@
 
 .title h1{
     font-size: 4em;
-    
+    color: #fff;
 }
 
 .title .ourgoal{
@@ -103,7 +101,7 @@
 }
 
 .title span{
-    background-image: linear-gradient(to top, #ffffff77, #202681);
+    background-image: linear-gradient(to top, #ffffffa1, #151e99);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -132,3 +130,55 @@
     background-color: #353b8f;
 }
 
+.section-p2{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid rgba(255, 250, 250, 0.308);
+    max-width: 270px;
+    height: 100%;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.card i{
+    font-size: 45px;
+    color: #373c85;
+}
+
+
+@media screen and (max-width: 768px){
+    .header-button{
+        display: flex;
+        position: relative;
+        left: 0.02px;
+    }
+    .nav-bar li{
+        padding-left: 1px;
+    }
+    .container-logo .logo{
+        display: flex;
+        position: relative;
+        right: 100px;
+        z-index: 1;
+    }
+    .nav-bar{
+        flex-direction: initial;
+        top: 50px;
+        bottom: 0;
+        width: 100%;
+    }
+    .section-p1{
+        font-size: 0.8em;
+    }
+    .section-p2{
+        flex-wrap: wrap;
+    }
+
+    
+}
