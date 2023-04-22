@@ -2,6 +2,10 @@
 # Guardix - Template
 This is a web page template built using HTML, CSS, JavaScript, Bootstrap, and Responsive web design. The template includes a logo, navigation bar, a login button, a section with large titles and two buttons, and another section with three cards to describe the features of the page. The layout of the page is implemented using the flex-grid CSS feature.
 
+# Image
+
+![guardix-template](https://user-images.githubusercontent.com/97223412/233797039-c455d383-1d92-4a7b-a9e9-c305e8713aee.png)
+
 ## Technologies used
 This project was built using the following technologies:
 
